@@ -50,3 +50,7 @@ Backbone has two dependencies that it needs to function properly. The core jQuer
 
 
 
+first create model then crete instances of that model.
+
+A name space is a coding technique that ensures my variables don't conflict with other variables that might exist on my web page. So on line four I have a variable called app.singleflower 
+models aren't the only ways to organize data in Backbone. Collections play a role here as well
