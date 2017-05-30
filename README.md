@@ -65,5 +65,14 @@ set() - find a specific model property
 get() - changes or add new properties to models
 on() - triggers the changes
 
+ A collection is a group of model instances.
 
+ To create a collection, you first have to let it know which model it's based on.
 
+This is a must. A collection will not work if you skip this step. From there, you can add model instances to it in a few different ways. You can either add the instances as parameters to your collection instance with the help of a JavaScript array. Or you can add them one by one using a collections internal.add method. Collections also have an internal.remove method that does as you would expect. It removes model instances from a given collection.
+
+creating a variable called app.FlowersCollection, and setting it equal to the backbone.collection.extend method. On line 6, and telling my collection that it should look to the app.Flower model I created earlier when it starts to add instances to it's group
+
+adding model instances to a collection is a two step process. First, I need to instantiate the collection, and next I have to actually add model instances to it.
+
+Using the variable name flowerGoup. I've also passed in a JavaScript array as a parameter. You can tell it's an array because it's enclosed in these brackets here, and the array is a list of the model instances that I've created up to this point.

@@ -20,6 +20,11 @@ var heirloomRoses = new app.singleFlower({
 	img: "images/heirloomRoses.jpg",
 	link: "heirloomRose"
 });
+var flowerGroup = new app.FlowersCollection([
+	redRoses,heirloomRoses,rainbowRoses
+		]);
+console.log(flowerGroup.toJSON());
+
 
 //console messages based on instances
 console.log(heirloomRoses.toJSON());
@@ -27,4 +32,7 @@ console.log(rainbowRoses.toJSON());
 console.log(redRoses.toJSON());
 
  //price change property
-rainbowRoses.set('price',20);
+// rainbowRoses.set('price',20);
+
+
+
