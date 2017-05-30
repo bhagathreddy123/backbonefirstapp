@@ -54,3 +54,16 @@ first create model then crete instances of that model.
 
 A name space is a coding technique that ensures my variables don't conflict with other variables that might exist on my web page. So on line four I have a variable called app.singleflower 
 models aren't the only ways to organize data in Backbone. Collections play a role here as well
+
+Watching for model changes:
+-----------------------------
+
+watch for such changes and be alerted when they occur. All of this get's done with the help of 4 backbone methods - Initialize, get, set, and on.
+
+initialize() - watches for changes
+set() - find a specific model property
+get() - changes or add new properties to models
+on() - triggers the changes
+
+
+
