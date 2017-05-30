@@ -25,3 +25,6 @@ var heirloomRoses = new app.singleFlower({
 console.log(heirloomRoses.toJSON());
 console.log(rainbowRoses.toJSON());
 console.log(redRoses.toJSON());
+
+ //price change property
+rainbowRoses.set('price',20);
