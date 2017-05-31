@@ -106,3 +106,7 @@ the model and collection views need to communicate with each other. AddFlower is
  in order to get some content to display on our web page. That's what we'll be doing in this movie inside of flowerApp.js. Now, in the last movie, we created a collection view called app.allFlowersView.
 
 It had a custom addFlower method that triggered most of the activity I outlined a few moments ago. It was a really, really powerful part of the collection view. All it needs to get going is some model data.
+
+add, remove, change and on methods
+
+most backbone events are used for listening for changes, that occur inside a web app. And, those changes usually need to be stored as data somewhere
