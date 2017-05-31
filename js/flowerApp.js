@@ -21,10 +21,10 @@ var heirloomRoses = new app.singleFlower({
 	link: "heirloomRose"
 });
 var flowerGroup = new app.FlowersCollection([
-	redRoses,heirloomRoses,rainbowRoses
+	redRoses,heirloomRoses
 		]);
+flowerGroup.add(rainbowRoses);
 console.log(flowerGroup.toJSON());
-
 
 //console messages based on instances
 console.log(heirloomRoses.toJSON());
