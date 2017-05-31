@@ -95,3 +95,14 @@ the viers communicate with each other
 
 Model instance data gets stored in an article tag
 Collection data gets stored in a section tag
+
+The collection view syntax will be similar to the model view syntax, although the property definitions will be different, as will the render functionality. We'll also be creating a custom function instead of using one that comes with Backbone
+
+
+the model and collection views need to communicate with each other. AddFlower is going to be very helpful in this case by doing the following. On line 14 the render method is applying the addFlower method to every model instance in my collection. It does this by accepting a parameter called addFlower
+
+
+
+ in order to get some content to display on our web page. That's what we'll be doing in this movie inside of flowerApp.js. Now, in the last movie, we created a collection view called app.allFlowersView.
+
+It had a custom addFlower method that triggered most of the activity I outlined a few moments ago. It was a really, really powerful part of the collection view. All it needs to get going is some model data.

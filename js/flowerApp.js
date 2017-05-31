@@ -3,7 +3,7 @@ var redRoses = new app.singleFlower({
 	name: "RedRoses",
 	price: 39.05,
 	color: "Red",
-	img: "images/redRoses.jpg",
+	img: "images/forest.jpg",
 	link: "redRose"
 });
 
@@ -17,7 +17,7 @@ var rainbowRoses = new app.singleFlower({
 var heirloomRoses = new app.singleFlower({
 	name: "heirloomRoses",
 	price: 19.05,
-	img: "images/heirloomRoses.jpg",
+	img: "images/ults.jpg",
 	link: "heirloomRose"
 });
 
@@ -44,6 +44,9 @@ var heirloomRoses = new app.singleFlower({
 var flowerGroup = new app.FlowersCollection([
 	redRoses,rainbowRoses,heirloomRoses
 		]);
+
+var flowerGroupView = new app.allFlowersView( { collection: flowerGroup});
+$("#allFlowers").html(flowerGroupView.render().el);
 // flowerGroup.add(rainbowRoses);
 // console.log(flowerGroup.toJSON());
 
