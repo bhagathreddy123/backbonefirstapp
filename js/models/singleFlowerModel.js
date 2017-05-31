@@ -1,10 +1,11 @@
-// var app = app || {};
-// app.singleFlower = Backbone.Model.extend ( {
+var app = app || {};
+app.singleFlower = Backbone.Model.extend ( {
 
-// 	defaults: {
-// 		color: "pink",
-// 		img: "images/sunflower.jpg"
-// 	},
+	defaults: {
+		color: "pink",
+		img: "images/sunflower.jpg"
+	}
+});
 // 	initialize: function() {
 //  	// 3 instances so 3 times print the message
 //             document.write("Welcome to TutorialsPoint..");
@@ -23,13 +24,13 @@
 // }
 // })
 
-var app = app || {};
-app.Flower = Backbone.Model.extend( {
+// var app = app || {};
+// app.Flower = Backbone.Model.extend( {
 
 
- initialize: function() {
-   this.on('change',function(){
-            console.log("a mode instance named " + this.get("name") + "has been changed" );
-          });
-}
-});
+//  initialize: function() {
+//    this.on('change',function(){
+//             console.log("a mode instance named " + this.get("name") + "has been changed" );
+//           });
+// }
+// });

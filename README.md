@@ -76,3 +76,22 @@ creating a variable called app.FlowersCollection, and setting it equal to the ba
 adding model instances to a collection is a two step process. First, I need to instantiate the collection, and next I have to actually add model instances to it.
 
 Using the variable name flowerGoup. I've also passed in a JavaScript array as a parameter. You can tell it's an array because it's enclosed in these brackets here, and the array is a list of the model instances that I've created up to this point.
+
+
+
+Views:
+
+
+contains the rules for moving data into html
+views create templates using underscore etc
+
+we can use pther templates also
+use render() also sends model data to the web page
+
+it's a good idea to use one set of view logic for a single model instance and another set of view logic for a collection of model instances
+
+the views are very dependent on one another
+the viers communicate with each other
+
+Model instance data gets stored in an article tag
+Collection data gets stored in a section tag
